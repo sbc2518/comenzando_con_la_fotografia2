@@ -2,6 +2,7 @@
   font-family: 'Dancing Script', cursive;
   text-decoration: none;
   color: #fff;
+  
 }
 body{
   background-color: #02010a;
@@ -15,11 +16,21 @@ header{
 }
 h1{
   color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  margin: 10px;
 
-  text-shadow: 2px 2px 1px #02010;
-  float:left;
+
 }
-li{
-  float: right;
-  word
+nav{
+    width: 50%;
+    float: right;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+
 }
