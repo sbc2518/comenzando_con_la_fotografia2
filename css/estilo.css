@@ -10,6 +10,8 @@ body{
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
+  float: right;
+  width: 100%;
 }
 h1{
   color: white;
@@ -17,8 +19,7 @@ h1{
   text-shadow: 2px 2px 1px #02010;
   float:left;
 }
-
-ul{
-  display: inline-flex;
-  flex:
+li{
+  float: right;
+  word
 }
