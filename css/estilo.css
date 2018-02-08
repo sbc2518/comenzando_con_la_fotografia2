@@ -15,11 +15,11 @@ header{
 }
 h1{
   color: white;
-
   text-shadow: 2px 2px 1px #02010;
-  float:left;
+  
 }
 li{
   float: right;
-  word
+  word-spacing: 10px;
+  text-decoration: none;
 }
