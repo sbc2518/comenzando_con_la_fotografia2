@@ -1,12 +1,9 @@
 *{
   font-family: 'Dancing Script', cursive;
   text-decoration: none;
-  color: #fff;
-
-}
+  }
 body{
   background-color: #02010a;
-
 }
 header{
   background-color: #5b7989;
@@ -15,10 +12,6 @@ header{
 }
 h1{
   color: white;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 06b2beed4eb945e5a034e6a673b5c9320eb4b746
   text-shadow: 2px 2px 2px #02010a;
   margin: 10px;
   float: left;
@@ -27,7 +20,7 @@ h1{
   align-items: center;
 }
 nav{
-    width: 30%;
+    
     float: right;
 }
 ul{
@@ -37,13 +30,10 @@ ul{
   list-style-type: none;
   text-decoration: none;
 }
-
-<<<<<<< HEAD
 .lorempixel{
   width: 100%;
   background-color: #82c3a6;
 }
-
 .lorempixe2{
   margin: 5px;
   width: 40%;
@@ -56,15 +46,4 @@ ul{
 img{
   width: 100%;
   margin: auto;
-=======
-=======
-  text-shadow: 2px 2px 1px #02010;
-  
-}
-li{
-  float: right;
-  word-spacing: 10px;
-  text-decoration: none;
->>>>>>> 8bce75aeea77bc46f8c5b55dd3a811f066c7e0c1
->>>>>>> 06b2beed4eb945e5a034e6a673b5c9320eb4b746
 }
