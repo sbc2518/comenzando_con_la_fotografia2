@@ -2,7 +2,7 @@
   font-family: 'Dancing Script', cursive;
   text-decoration: none;
   color: #fff;
-  
+
 }
 body{
   background-color: #02010a;
@@ -18,11 +18,13 @@ h1{
   color: white;
   text-shadow: 2px 2px 2px #02010a;
   margin: 10px;
-
-
+  float: left;
+  width: 50%;
+  text-align: center;
+  align-items: center;
 }
 nav{
-    width: 50%;
+    width: 30%;
     float: right;
 }
 ul{
@@ -31,6 +33,21 @@ ul{
   justify-content: space-around;
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
+}
 
+.lorempixel{
+  width: 100%;
+  background-color:  #82c3a6;
+}
+
+.lorempixe2{
+  width: 40%;
+  background-color:  #82c3a6;
+  margin: 10px
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img{
+  width: 90%
 }
