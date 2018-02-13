@@ -16,14 +16,28 @@ h1{
   text-shadow: 2px 2px 2px #02010a;
   margin: 0;
   float: left;
+<<<<<<< HEAD
+=======
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+nav{
+    
+    float: right;
+>>>>>>> cb17fb7609445887f6342b5f17add711b49d04e0
 }
 
 
 li{
   float: right;
   list-style-type: none;
+<<<<<<< HEAD
 
   margin-right: 10px;
+=======
+  text-decoration: none;
+>>>>>>> cb17fb7609445887f6342b5f17add711b49d04e0
 }
 .lorempixel{
   width: 100%;
