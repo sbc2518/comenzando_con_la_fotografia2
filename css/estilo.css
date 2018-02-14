@@ -24,26 +24,58 @@ nav{
 li{
     float: left;
     margin: 10px;
+    align-items: center;
 }
 
 @media (min-width:900px) {
-  .uno{
+section{
     width: 100%;
-    margin: 0 auto;
-    background-color: #82c3a6;
-    align-items: center;
+}
+    .uno{
+        background-color: #82c3a6;
+        padding: 20px;
   }
+
+    .dos{
+        display: flex;
+        background-color: #d5c75f;
+        padding: 20px;
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .uno .coete{
+        width: 80%;
+        margin: auto;
+    }
+    .rotation, .translation{
+        width:45%;
+        margin: auto;
+    }
+    .rotation{
+        border: 2px solid black;
+    }
+        img{
+            width: 100%;
+        }
+    .rotation:hover{
+        box-shadow: 1px 1px #82c3a6;
+        transform: rotate(10deg);
+        transition-duration: 1s;
+    }
+    .translation:hover{
+        transform: translate(5px,-20px);
+        transition-duration: 1s,2s;
+        box-shadow: 1px 1px #82c3a6;
+    }
+    footer{
+        background-color:#C6d5c5;
+    }
+@media (max-width:899px){
+    section{
+        width: 100%;
+    }
 .dos{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  background-color: green;
-  margin: 0 auto;
+    
+  display: block;
 }
-section>img{
-    width: 80%;
-    margin: auto;
-  }
 }
-@media (max-width:899px){}
