@@ -2,7 +2,11 @@
     color: white;
     list-style-type:none;
     font-family: 'Dancing Script', cursive;
-    
+   
+}
+nav ul li a:active{
+    text-decoration: none;
+    color: red;
 }
 body{
   background-color: #02010a;
@@ -16,16 +20,26 @@ header{
   height: 9vh;
   border-radius: 10px 10px 0px 0px;
   background-color:#5b7989;
+    position :relative;
+    -webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s ;
 }
+@keyframes mymove{
+    0%{margin-top: 150%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0%;} 
+    }
 h1{
     color: #ffffff;
     text-shadow:  2px 2px 2px #02010a;
     text-align: center;
     margin: 0;
     }
+
 li{
     margin: 10px;
 }
+
 .uno{
     background-color: #82c3a6;
     padding: 20px;
@@ -47,8 +61,7 @@ li{
     }
 .dos a p{
         text-align: center;
-                
-    }
+}
 .rotation img{
         border: 2px solid black;
     }
@@ -58,7 +71,7 @@ li{
     }
  .pie{
         background-color:#C6d5c5;
-        border: 0px 0px 10px 10px;
+        border-radius: 0px 0px 10px 10px;
         display: block;
         margin: auto;
     }
@@ -74,7 +87,6 @@ li{
 
 
 
- 
 @media only screen and (max-width: 899px){
 
     
@@ -146,3 +158,4 @@ li{
     }
     
     }
+
