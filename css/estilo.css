@@ -2,7 +2,7 @@
     color: white;
     list-style-type:none;
     font-family: 'Dancing Script', cursive;
-    
+
 }
 body{
   background-color: #02010a;
@@ -16,7 +16,15 @@ header{
   height: 9vh;
   border-radius: 10px 10px 0px 0px;
   background-color:#5b7989;
+    position :relative;
+    -webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s ;
 }
+@keyframes mymove{
+    0%{margin-top: 150%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0%;}
+    }
 h1{
     color: #ffffff;
     text-shadow:  2px 2px 2px #02010a;
@@ -30,54 +38,64 @@ li{
     background-color: #82c3a6;
     padding: 20px;
     margin: auto;
-}.dos{
+}
+.dos{
         display: flex;
         background-color: #d5c75f;
         padding: 20px;
         border: 1px solid black;
     }
-.dos a{
+.dos>a{
         color: #02010a;
     }
 
-    h4,p{
+
+.dos>a p{
         text-align: center;
-        color: #02010a;
-        font-size: 20px;
-    }
-.dos a p{
-        text-align: center;
-                
-    }
-.rotation img{
+}
+.rotation>img{
         border: 2px solid black;
     }
  img{
         width: 100%;
-        box-shadow: 2px 2px #02010a; 
+        box-shadow: 2px 2px #02010a;
     }
  .pie{
         background-color:#C6d5c5;
-        border: 0px 0px 10px 10px;
+        border-radius: 0px 0px 10px 10px;
         display: block;
         margin: auto;
     }
     .pie div{
         padding:0px 20px ;
         margin-bottom: 50px;
+      }
+      h4,p{
+          text-align: center;
+          color: #02010a;
+          font-size: 20px;
+          width: 100%;
+          text-align:left;
+      }
+    .tres{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #d5c75f;
     }
-     h4,p{
-        width: 100%;
-        text-align:left;
-        
-    } 
+    .tres .hj1,.hj2,.hj3,.hj4,.hj5,.hj6{
+      width: 33.33%;
+      margin: 20px ;
+    }
+    .hj1{
+      background-image: url(../img/);
+    }
+}
 
-
-
- 
 @media only screen and (max-width: 899px){
 
-    
+
     nav{
         margin: 10px;
     }
@@ -95,7 +113,7 @@ li{
     }
 }
 @media (min-width: 900px) {
-    
+
     .contenido{
         width: 900px;
         margin: 0 auto;
@@ -114,14 +132,14 @@ li{
     .dos{
         display: flex;
     }
-   .rotation, .translation{
+   .rotation,.translation{
         width:45%;
         margin: auto;
     }
     .rotation img{
         border: 2px solid black;
     }
-       
+
     .rotation:hover{
         box-shadow: 1px 1px #82c3a6;
         transform: rotate(10deg);
@@ -132,9 +150,8 @@ li{
         transition-duration: 2s,2s;
         box-shadow: 2px 2px #82c3a6;
     }
-    
-     .pie{
-        
+    .pie{
+
         display: flex;
         width: 100%;
         margin: auto;
@@ -144,5 +161,4 @@ li{
         margin: auto;
         padding:0 ;
     }
-    
-    }
+  }
