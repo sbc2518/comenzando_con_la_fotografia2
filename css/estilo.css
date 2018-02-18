@@ -2,7 +2,8 @@
     color: white;
     list-style-type:none;
     font-family: 'Dancing Script', cursive;
-  }
+
+}
 body{
   background-color: #02010a;
   margin: 0;
@@ -30,9 +31,11 @@ h1{
     text-align: center;
     margin: 0 auto;
     }
+
 li{
     margin: 10px auto;
 }
+
 .uno{
     background-color: #82c3a6;
     padding: 20px;
@@ -47,8 +50,12 @@ li{
 .dos a{
         color: #02010a;
         text-align: center;
-        font-size: 35px;
+        color: #02010a;
+        font-size: 20px;
     }
+.dos a p{
+        text-align: center;
+}
 .rotation img{
         border: 2px solid black;
     }
@@ -69,24 +76,6 @@ li{
     h2{
         font-size: 30px ;
 
-    }
-   h2,p{
-        color: #02010a;
-        text-align:left;
-      }
-.tres{
-    background-color: #d5c75f;
-    padding: 20px 0px;
-}
-  .tres .hj1{
-    filter: blur(10px)
-  }
-  .tres .hj2,.hj4,.hj6{
-          filter: grayscale(100%)
-      }
-  .tres .hj3{
-          filter: sepia(90%)
-          }
 @media only screen and (max-width: 899px){
    nav{
         margin: 10px;
