@@ -32,10 +32,12 @@ h1{
     margin: 0 auto;
     }
 
-li{
-    margin: 10px auto;
-}
-
+    li{
+        margin: 10px auto;
+    }
+    li a{
+        margin: 10px;
+    }
 .uno{
     background-color: #82c3a6;
     padding: 20px;
@@ -48,7 +50,6 @@ li{
         border: 1px solid black;
     }
 .dos a{
-        color: #02010a;
         text-align: center;
         color: #02010a;
         font-size: 20px;
@@ -59,11 +60,23 @@ li{
 .rotation img{
         border: 2px solid black;
     }
- img{
+.tres{
+    background-color:  #d5c75f;
+}
+.hj1{
+    filter: blur(10px)
+}
+.hj2,.hj4, .hj6{
+    filter: grayscale(100%)
+}
+.hj3{
+    filter: sepia(90%)
+}
+    img{
         width: 100%;
         box-shadow: 2px 2px #02010a;
     }
- .pie{
+    .pie{
         background-color:#C6d5c5;
         border-radius: 0px 0px 10px 10px;
         display: block;
@@ -73,11 +86,12 @@ li{
         padding:1px 10% ;
 
     }
-    h2{
-        font-size: 30px ;
+    h2{ color:#02010a;
+        font-size: 30px ;}
 
 @media only screen and (max-width: 899px){
-   nav{
+ 
+    nav{
         margin: 10px;
     }
         ul{
@@ -91,7 +105,12 @@ li{
             }
     .dos{
         display: block;
+        text-align: center;
     }
+    .translation img{
+        margin-top: 20px;
+    }
+    
 .tres{
     display: block;
     width:100%;
@@ -106,12 +125,14 @@ li{
         width: 900px;
         margin: 0 auto;
     }
-    h1{
+    h1{   
+        font-size: 40px;
         margin: 10px;
         float: left;
      }
     nav{
         float: right;
+        font-size: 20px;
     }
     li{
         float: left;
