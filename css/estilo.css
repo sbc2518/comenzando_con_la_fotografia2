@@ -174,7 +174,7 @@ h1{
     }
     .pie div{
         width: 20%;
-        margin: auto;
+        margin: 0px auto;
         padding:0 ;
     }
   }
